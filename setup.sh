@@ -11,7 +11,7 @@ get_latest_chain_height() {
 
 display_table() {
   echo "----------------------------------------------"
-  echo "| Endpoint                        | Data      |"
+  echo "| Endpoint                        | Data     |"
   echo "----------------------------------------------"
   echo "| Latest Chain Height             | $(get_latest_chain_height) |"
   echo "| Latest Node Height              | $(get_data /testnet3/latest/height) |"
